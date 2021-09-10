@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Repair Center</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+     <link rel="stylesheet" href="CSS/style.css">
+ 
+     <!-- Javascript -->
+     <script src="/JS/jquery-3.6.0.min.js" ></script>
+     <script src="/JS/script.js" defer></script>
+</head>
+<body>
+     <!-- Navbar Here -->
+     <nav>
+        <div class="container-fluid bg-pink border-bottom border-gray">
+            <div class="container p-2">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6 col-sm-6">
+                        <img src="/image/icons8-phone.svg" alt="phone" class="icon">
+                        <span class="icon-text"> +918750289197</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 col-sm-6 text-right">
+                        <img src="image/icons8-mail.svg" alt="Gmail" class="icon">
+                        <span class="icon-text">softec@gmail.com</span>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-sm-4 d-none d-md-block text-right">
+                        <img src="/image/icons8-location-64.png" alt="Location" class="icon">
+                        <span class="icon-text"> Commercial belt,greater noida 201310 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manu Bar -->
+
+        <div class="container p-2 bg-bisque ">
+            <div class="row ">
+                <div class="col-lg-2 col-md-1 col-sm-4 col-4 " >
+                    <img src="/image/logo.png" alt="" style="width: 120px;" id="menu-ic">
+                </div>
+
+
+                <div class="col-lg-3  p-0 mt-3 col-sm-6 col-8 text-right  search-items d-none d-lg-block ">
+                    <form action="Repair.html">
+                        <select name="cars" id="Search" class="text-center size-md">
+                            <option value="volvo">Search...</option>
+                            <option value="">Apple</option>
+                            <option value="saab">VIVO</option>
+                            <option value="opel">OPPO</option>
+                            <option value="audi">Realme</option>
+                        </select>
+                        <input type="submit" value="Find" style="height: 32px; padding: 0px 8px; " >
+                    </form>
+                </div>
+
+                <span class="col-sm-7 col-7 text-right mt-3  blok menu">
+                   <img src="/image/menu-icon.png" alt="menu" id="menu-icon" id="menu-ic" >
+                </span>
+
+
+                <div class="col-lg-7 col-md-11 mt-3 text-center pr-3 d-none d-md-block">
+                  <a href="index.html"> <span class="btn hnv" >HOME</span></a> 
+                  <a href="aboutUs.html">  <span class="btn hnv">ABOUT</span></a>
+                   <a href="Repair.html"><span class="btn hnv" style="color: white; background-color: pink;">REPAIR</span></a> 
+                  <a href=""></a>  <span class="btn hnv">ACCESORIES</span>
+                    <span class="btn hnv">ENQUIRY</span>
+                    <span class="btn hnv">CONTACT</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- menu when we click on icon -->
+    <div class="main" id="menu-slide">
+        <span class="" >HOME</span><br>
+        <span class="">ABOUT</span><br>
+        <span class="">REPAIR</span><br>
+        <span class="">ACCESORIES</span><br>
+        <span class="">ENQUIRY</span><br>
+        <span class="">CONTACT</span><br>
+    </div>
+
+    <!-- Repair Parts -->
+
+    
+    <div class="container text-center mt-5 p-3 bg-pink">
+        <Span class="top-heading">REPAIR CATEGORIES</Span>
+        <div class="row p-3 ">
+            <div class="col-md-3 col-sm-6 col-6  ">
+                <div class="bg-white pt-3 pb-3 mb-3 style">
+                    <img src="/image/apple.jpg" alt="apple" class="repair-img" >
+                    <div>APPLE</div>
+                    <div class="btn hnv bg-warning m-2 text-danger">BOOK NOW</div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-6 mb-3">
+                <div class="bg-white pt-3 pb-3 mb-3 style">
+                    <img src="/image/vivo.jpeg" alt="vivo" class="repair-img">
+                    <div>VIVO</div>
+                    <div class="btn bg-warning m-2 text-danger">BOOK NOW</div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="bg-white pt-3 pb-3 mb-3 style">
+                    <img src="/image/samsung.jpg" alt="SAMSUMG" class="repair-img">
+                    <div>SAMSUMG</div>
+                    <div class="btn bg-warning m-2 text-danger">BOOK NOW</div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="bg-white pt-3 pb-3 mb-3 style">
+                    <img src="/image/oppo.jpeg" alt="oppo" class="repair-img">
+                    <div>OPPO</div>
+                    <div class="btn bg-warning m-2 text-danger">BOOK NOW</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
